@@ -1,4 +1,4 @@
-use exchange_rate::ExchangeRates;
+use exch_rate::ExchangeRates;
 
 #[tokio::main]
 async fn main() {

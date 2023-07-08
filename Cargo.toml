@@ -1,5 +1,5 @@
 [package]
-name = "exchange_rate"
+name = "exch_rate"
 authors = ["Mustafif Khan <mustafif0929@gmail.com>"]
 description = "Get the latest exchange rate!"
 version = "0.1.0"
