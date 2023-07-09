@@ -1,20 +1,13 @@
-# Exchange Rate 
+# Exchange Rate
 
-The `exch_rate` library provides abstractions to get the latest currency exchange rate from the `exchangerate-api` which returns a table of currencies and their rates given a base currency. 
+> This project is under the [GPLv2 License](LICENSE)
 
-Current Features: 
-- Gets the latest rates given a base currency 
-    - `ExchangeRates::new(base)`
-- Gets the rate of a given currency if exists
-    - `ExchangeRates::get_rate(currency) -> Option<&f64>`
-- Saves the exchange rates in a JSON file given the file's path. 
-    - `ExchangeRates::save(path)`
+This library is built to provide a way to get the latest exchange rates 
+for various currencies given a base. Since the implementation is fairly simple, 
+we aim to provide various language ports to provide similar functionality towards eachother. 
 
 
-Things to work on: 
-- [ ] Historical rates given a start and end date 
-- [ ] Blocking feature for synchronous operations
-- [ ] Conversion functionality 
-- [ ] Different language ports
-- [ ] Better error handling 
-- [ ] Documentation and examples
+Current Language Implementations: 
+
+- [C++](C++/README.md)
+- [Rust](Rust/README.md) 
